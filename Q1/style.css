@@ -1,0 +1,234 @@
+*,body{
+    margin:0;
+    box-sizing: border-box;
+}
+
+.parent{
+    /* height: 100%;
+    width: 100%; */
+    /* border:1px solid red; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+   
+    
+}
+.mid-level{
+    /* border: 3px solid red; */
+    margin-top:150px;
+    /* height:350px; */
+    width: 75%;
+    display: flex;
+}
+
+.child{
+    /* border:5px solid green; */
+    margin: 0 auto;
+    width: 850px;
+    height: 700px;
+    background-color: rgba(6,50,63,255);
+    display: flex;
+    justify-content: center;
+}
+#opening-bracket{
+    /* border:1px solid rgb(242, 255, 0); */
+    position: relative;
+    height:390px;
+    width: 90px;
+    background-color: rgba(255,222,0,255);
+    display: flex;
+    border-top-left-radius: 20px 20px;
+    border-bottom-left-radius: 20px 20px;
+    /* align-items:flex-end; */
+}
+#opening-bracket2{
+    /* border:1px solid rgb(242, 255, 0); */
+    position: relative;
+    height:390px;
+    width: 90px;
+    background-color: rgba(255,222,0,255);
+    display: flex;
+    border-top-right-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+    
+    /* align-items:flex-end; */
+}
+#invisible{
+    position: absolute;
+    /* border:2px solid red; */
+    background-color: rgba(6,50,63,255);
+    width: 50%;
+    height: 70%;
+    top:16%;
+    right: -8px;
+    border-top-left-radius: 20px 20px;
+    border-bottom-left-radius: 20px 20px;
+    
+}
+#invisible2{
+    position: absolute;
+    /* border:2px solid red; */
+    background-color: rgba(6,50,63,255);
+    width: 50%;
+    height: 70%;
+    top:16%;
+    right: 49px;
+    border-top-right-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+    
+}
+#mid-part{
+    position: relative;
+    /* border:1px solid rgb(238, 255, 0); */
+    margin-left: 20px;
+    width:400px;
+    height: 390%;
+}
+
+#sword-tail{
+    margin-top:28%;
+    margin-left:0%;
+    width:350px;
+    height: 75px;
+    background-color: rgba(255,222,0,255);
+    rotate:-137deg;
+    /* z-index:5; */
+}
+#left-cut{
+    background-color: rgba(6,50,63,255);
+    height: 80px;
+    width:80px;
+    rotate: -45deg;
+    margin-left:297px;
+    /* padding-top:5px; */
+
+}
+#left-cut1{
+    border-color:rgba(255,222,0,255);
+    border-bottom: 50px solid rgba(255,222,0,255);
+    border-left: 32px solid rgba(255,222,0,255);
+	border-right: 25px solid rgba(255,222,0,255);
+    height:0;
+    width:0;
+	
+    
+}
+
+#sword-tail2{
+    position: relative;
+    margin-top:-16%;
+    margin-left:0%;
+    width:350px;
+    height: 72px;
+    /* background-color:red; */
+    background-color: rgba(255,222,0,255);
+    rotate:313deg;
+    /* z-index: -2; */
+}
+#right-cut{
+    background-color: rgba(6,50,63,255);
+    height: 80px;
+    width:80px;
+    rotate: -45deg;
+    margin-left:297px;
+   
+
+}
+#right-cut1{
+    border-color:rgba(255,222,0,255);
+    border-bottom: 46px solid rgba(255,222,0,255);
+    border-left: 32px solid rgba(255,222,0,255);
+	border-right: 25px solid rgba(255,222,0,255);
+    height:0;
+    width:0;
+	
+    
+}
+#gap1{
+    position: absolute;
+    background-color:rgba(6,50,63,255);
+    height: 110%;
+    width:20px;
+    top:0;
+    margin-left: 220px;
+
+    /* position: relative; */
+
+}
+#gap2{
+    position: absolute;
+    background-color:rgba(6,50,63,255);
+    height: 110%;
+    width:20px;
+    top:0;
+    margin-left: 125px;
+
+    /* position: relative; */
+
+}
+#sword-handle1{
+    height:30px;
+    width:109px;
+    /* background-color:red; */
+    background-color:rgba(255,222,0,255) ;
+    rotate:313deg;
+    margin-top: 81px;
+    border-radius: 10% 10%;
+    /* margin-left:12px; */
+
+}
+#sword-handle2{
+    height:30px;
+    width:109px;
+    background-color:rgba(255,222,0,255) ;
+    rotate:-180deg;
+    margin-top: -57px;
+    margin-left:-61px;
+    border-radius: 10% 10%;
+
+}
+#sword-protector{
+    height: 35px;
+    width: 118px;
+    background-color: rgba(255,222,0,255);
+    rotate: -137deg;
+    margin-top: -45px;
+    margin-left: 4px;
+
+
+}
+#sword-protector2{
+    height: 35px;
+    width: 118px;
+    background-color: rgba(255,222,0,255);
+    rotate: -228deg;
+    margin-top: -56px;
+    margin-left: 232px;
+}
+
+
+
+
+#left-back-side{
+    height: 80px;
+    width: 20px;
+    background-color: rgba(255,222,0,255);
+    position: absolute;
+    top: 149px;
+    left: -128px;
+    border-radius: 20%;
+    border-top-left-radius: 8px 8px;
+    border-bottom-left-radius: 8px 8px;
+}
+#right-back-side{
+    height: 80px;
+    width: 20px;
+    background-color: rgba(255,222,0,255);
+    position: absolute;
+    top: 149px;
+    right:-108px;
+    border-radius: 20%;
+    border-top-right-radius: 8px 8px;
+    border-bottom-right-radius: 8px 8px;
+}
+
